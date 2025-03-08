@@ -6,17 +6,35 @@
 	<link rel="stylesheet" href="css/gallery.css">
 	<script src = "js/gallery.js"></script>
 </head>
-<body>
+<body onload="addTabFocus()">
 	
 	<div id = "image">
 		Hover over an image below to display here.
 	</div>
 	
-	<img class = "preview" alt = "Apple" src = "https://images.pexels.com/photos/206959/pexels-photo-206959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onmouseover = "upDate(this)" onmouseout = "unDo()">
-	
-	<img class = "preview" alt = "Banana" src = "https://images.pexels.com/photos/1093038/pexels-photo-1093038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onmouseover = "upDate(this)" onmouseout = "unDo()">
-	
-	<img class = "preview" src = "https://images.pexels.com/photos/162689/cherry-pair-fruits-sweet-162689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt = "Cherry" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class="preview" alt="Apple" src="https://images.pexels.com/photos/206959/pexels-photo-206959.jpeg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Banana" src="https://images.pexels.com/photos/1093038/pexels-photo-1093038.jpeg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Cherry" src="https://images.pexels.com/photos/162689/cherry-pair-fruits-sweet-162689.jpeg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Strawberry" src="https://images.pexels.com/photos/934066/pexels-photo-934066.jpeg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Orange" src="https://images.pexels.com/photos/161559/background-bitter-breakfast-bright-161559.jpeg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="Grapes" src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg" 
+         onmouseover="upDate(this)" onmouseout="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
 
 </body>
 </html>
